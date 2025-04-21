@@ -20,13 +20,13 @@ double Cylinder :: Circumference(){
 }
 
 istream & operator>>(istream & in, Cylinder & cldr){
-    in>>cldr.radius>>clde.height;
+    in>>cldr.radius>>cldr.height;
     return in;
 }
 
 ostream & operator<<(ostream & out, Cylinder & cldr){
-    out<<"Circumference: "<<fixed<<std::setprecision(3)<<cldr.Ciecumference()<<endl;
-    out<<"SurfaceArea: "<<fixed<<std::setprecision(3)<<clde.SurfaceArea()<<endl;
+    out<<"Circumference: "<<fixed<<std::setprecision(3)<<cldr.Circumference()<<endl;
+    out<<"SurfaceArea: "<<fixed<<std::setprecision(3)<<cldr.SurfaceArea()<<endl;
     out<<"Volume: "<<fixed<<std::setprecision(3)<<cldr.Volume()<<endl;
     return out;
 }
